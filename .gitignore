@@ -1,0 +1,25 @@
+
+# Environment dan konfigurasi rahasia
+.env
+.env.*
+!.env.example
+secrets.h
+**/secrets.h
+
+# Dependency JavaScript
+node_modules/
+
+# File sementara
+*.log
+*.tmp
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Hasil kompilasi Arduino
+*.hex
+*.elf
+*.bin
+*.map
